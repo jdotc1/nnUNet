@@ -1,3 +1,13 @@
+## About this fork
+
+This is a development fork of [MIC-DKFZ/nnUNet](https://github.com/MIC-DKFZ/nnUNet), the biomedical segmentation framework that configures preprocessing and U-Net variants from a dataset fingerprint. It provides a workflow from dataset preparation through training, model selection, and inference, making it a useful starting point for supervised 2D or 3D segmentation research.
+
+Fork work is tracked in [upstream PR #3078](https://github.com/MIC-DKFZ/nnUNet/pull/3078), proposing private staging for model-installation downloads. It was open on 17 October 2026 and remains on the linked feature branch.
+
+Follow the [official installation and setup guide](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/getting-started/installation-and-setup.md) for PyTorch, dataset paths, and environment requirements. [Compare the default branch with upstream](https://github.com/jdotc1/nnUNet/compare/MIC-DKFZ:master...jdotc1:master). The upstream README, documentation map, and citation guidance follow.
+
+---
+
 # nnU-Net
 
 nnU-Net is a semantic segmentation framework that automatically adapts its pipeline to a dataset. It analyzes the training data, creates a dataset fingerprint, configures suitable U-Net variants, and provides an end-to-end workflow from preprocessing to training, model selection, and inference.
